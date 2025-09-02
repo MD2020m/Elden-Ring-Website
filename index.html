@@ -8,7 +8,11 @@
     <body>
         <!--Add a header to specify the section displaying the page's title and an image-->
         <header>
+            <!--<h1> tag specifies the text (the title of the page) is to be printed in the heading 1 font-->
             <h1>Elden Ring Info</h1>
+            <!--<img> tag uses its src attribute to specify the path to the image file, 
+            alt specifies alt text for accessibility, SOE, and to be printed if the image doesn't render,
+            and width specifies the size of the image-->
             <img src="images/EldenRingTitlePic.jpg" alt="Elden Ring Title Card Image"
             width="50%">
         </header>
@@ -16,7 +20,9 @@
         <main>
             <!--Add a title and article giving an overview of what Elden Ring is and some interesting facts-->
             <article>
+                <!--<h2> tag will specify the text (the title of the article) be written in the heading 2 font-->
                 <h2>Overview</h2>
+                <!--<p> tag will specifies that the text for the 'Overview' article be written in paragraph form-->
                 <p>Elden Ring is a Soulsborne video game developed by FromSoftware and
                     released in 2022. The game won Game of the Year the year of its release.
                     Like most of FromSoftware's Soulsborne games, Elden Ring's development
@@ -28,6 +34,8 @@
             </article>
             <!--Add a title and article about the main story of Elden Ring-->
             <article>
+                <!--Like before, the h2 tag will specify that the title be printed in the heading 2 font
+                and the <p> tag will specify that the body of the article be printed in paragraph format-->
                 <h2>Story</h2>
                 <p>The main storyline, which the player experiences directly
                     as they make their way through the game, begins with a short expository cutscene.
@@ -44,6 +52,7 @@
             </article>
             <!--Add a title and article about some of the details of Elden Ring's lore and how it is gathered-->
             <article>
+                <!--One more time here, the title in heading 2, and the body in paragraph format-->
                 <h2>Lore</h2>
                 <p>In true Soulsborne fashion, the true depth of the game's world
                     is not immediately apparent. Rather, a great deal of lore is hidden
@@ -51,7 +60,7 @@
                     completing various steps of the game's opaque sidequests, as well as
                     in a number of the descriptions attached to the game's many (very very many)
                     items.
-                    <!--These br tags describe two line breaks to serve as separators between parts of the article--> 
+                    <!--These <br> tags describe two line breaks to serve as separators between parts of the article--> 
                     <br><br>
                     By compiling these bits and pieces, the diligent player can piece together a more
                     complete understanding of the game's world. Details about the Shattering's many battles, 
@@ -63,6 +72,9 @@
                 </p>
                 <!--Add a link to a youtube playlist about Elden Ring's lore-->
                 <nav>
+                    <!--The <h4> tag will print in header 4 font. This will be a good way to visually distinguish the
+                        navigation text from the articles or their titles. The <a> tag will turn the word 'here' into
+                            a hyperlink to the video at the url-->
                     <h4>Learn more about Elden Ring's lore <a href="https://www.youtube.com/playlist?list=PLWLedd0Zw3c6-pVaCxtqkUtBGDOU2nw1Z">
                         here</a></h4>
                 </nav>
@@ -71,8 +83,13 @@
             <section>
                 <!--Add a title and list article about notable characters in Elden Ring-->
                 <article>
+                    <!--Once again, the <h2> tag will cause its text to be printed in the heading 2 font
+                        as the title of the list article-->
                     <h2>Notable Characters</h2>
+                    <!--Unlike before, this article is an unordered list, as specified by the <ul> tag-->
                     <ul>
+                        <!--Each of these <li> tags specify their respective text to be formatted as an element of 
+                            the list they appear in-->
                         <li>The Tarnished (player character)</li>
                         <li>Queen Marika</li>
                         <li>Sir Gideon Ofnir</li>
@@ -83,8 +100,11 @@
                 </article>
                 <!--Add a title and list article about my favorite armaments in Elden Ring-->
                 <article>
+                    <!--Another title using <h2> to specify heading 2 font-->
                     <h2>My Favorite Armaments</h2>
+                    <!--Another list, but this time the list is an ordered list as specified by the <ol> tag-->
                     <ol>
+                        <!--The <li> once again specifies list elements for the ordered list as well as the unordered list-->
                         <li>Giant Crusher</li>
                         <li>(Guts') Greatsword</li>
                         <li>Bloodhound's Fang</li>
@@ -96,7 +116,11 @@
             <!--Add a footer containing a link to the other page of the site-->
         </main>
         <footer>
+            <!--I'll specify another <nav> section to help screen readers and facilitate SOE-->
             <nav>
+                <!--This time I'll use the <h3> tag for the heading 3 font. This will distinguish
+                    the internal link on this line from both the articles and titles as well as
+                    the external link that appeared earlier-->
                 <h3>
                     Learn more about Elden Ring's DLC,
                     <a href="page2.html">Shadow of the Erdtree</a> here!
