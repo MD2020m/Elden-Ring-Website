@@ -1,11 +1,26 @@
+/*Define a custom font similar to the iconic Ney York Times font*/
 @font-face {
     font-family: "The LB Times";
     src: url(Fonts/Chomsky.woff);
     src: url(Fonts/Chomsky.otf);
 }
 
+/*Format lines containing links*/
+nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 1px;
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+    border-radius: 8px;
+}
+
 li {
     color:blanchedalmond;
+    font-family: Helvetica
 }
 
 h1 {
@@ -30,7 +45,7 @@ img {
 
 header {
     margin: 0;
-    padding: 0;
+    padding: 15;
     text-align: center;
 }
 
@@ -41,12 +56,12 @@ p {
 .article-title {
     font-family: "The LB Times";
     text-align: center;
-    background-color: darkslategray;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 .list-section {
     display: flex;
+    justify-content: center;
 }
 
 .list-title {
@@ -68,10 +83,16 @@ p {
 
 #er-page {
     background-color: burlywood;
+    .article-title {
+        background-color: darkslategray;
+    };
 }
 
 #sote-page {
     background-color:lightcoral;
+    .article-title {
+        background-color: maroon;
+    }
 }
 
 #er-header {
