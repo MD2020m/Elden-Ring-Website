@@ -136,3 +136,22 @@ to represent contents of index.html*/
         font-size: 15px;
     }
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 13px;
+        margin: 25px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .list-section {
+        flex-direction: column;
+    }
+}
