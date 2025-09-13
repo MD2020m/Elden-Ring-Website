@@ -16,6 +16,8 @@ nav {
     display: flex;
     margin: 10px;
     border-radius: 8px;
+    font-size: 15px;
+    font-family:sans-serif;
 }
 
 /*Specify font and color of text for each element in each list*/
@@ -119,10 +121,18 @@ p {
 to represent contents of page2.html*/
 #er-to-sote-link {
     background-color: lightcoral;
+    h2 {
+        font-size: 15px;
+        color: black;
+    }
 }
 
 /*Specify background color for internal link in page2.html
 to represent contents of index.html*/
 #sote-to-er-link{
     background-color: burlywood;
+    h2 {
+        color: black;
+        font-size: 15px;
+    }
 }
