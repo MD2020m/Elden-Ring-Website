@@ -10,7 +10,7 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: cadetblue;
+    background-color: rgb(95, 158, 160);
     padding: 1px;
     text-decoration: none;
     display: flex;
@@ -87,7 +87,7 @@ p {
 
 /*Specify formatting for the two external links to youtube*/
 .yt-link {
-    background-color: rgb(202, 104, 107);
+    background-color: fbe5e5;
     padding: 0.5%;
     border-radius: 8px;
 }
@@ -96,13 +96,13 @@ p {
 #er-page {
     background-color: burlywood;
     .article-title {
-        background-color: darkslategray;
+        background-color: 012317;
     };
 }
 
 /*Specify color scheme for SOTE page (page2.html)*/
 #sote-page {
-    background-color:lightcoral;
+    background-color:f1b67e;
     .article-title {
         background-color: maroon;
     }
@@ -110,7 +110,7 @@ p {
 
 /*Specify header background color for index.html header*/
 #er-header {
-    background-color: darkslategray;
+    background-color: 012317;
 }
 /*Specify header background color for page2.html header*/
 #sote-header {
@@ -120,7 +120,7 @@ p {
 /*Specify background color for internal link in index.html
 to represent contents of page2.html*/
 #er-to-sote-link {
-    background-color: lightcoral;
+    background-color: f1b67e;
     h2 {
         font-size: 15px;
         color: black;
