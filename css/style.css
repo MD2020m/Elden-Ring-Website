@@ -3,6 +3,7 @@
     font-family: "The LB Times";
     src: url(Fonts/Chomsky.woff);
     src: url(Fonts/Chomsky.otf);
+    /*Ensures text is displayed while font loads*/
     font-display: swap;
 }
 
@@ -17,6 +18,7 @@ nav {
     display: flex;
     margin: 10px;
     border-radius: 8px;
+    /*Changes nav text font and size from default for h3*/
     font-size: 15px;
     font-family:sans-serif;
 }
@@ -88,6 +90,7 @@ p {
 
 /*Specify formatting for the two external links to youtube*/
 .yt-link {
+    /*Change link background color for higher contrast ratio*/
     background-color: fbe5e5;
     padding: 0.5%;
     border-radius: 8px;
@@ -97,6 +100,7 @@ p {
 #er-page {
     background-color: burlywood;
     .article-title {
+        /*Change index.html h2 background color for better contrast ratio*/
         background-color: 012317;
     };
 }
@@ -111,6 +115,7 @@ p {
 
 /*Specify header background color for index.html header*/
 #er-header {
+    /*Change index.html header background for better contrast ratio*/
     background-color: 012317;
 }
 /*Specify header background color for page2.html header*/
@@ -121,6 +126,7 @@ p {
 /*Specify background color for internal link in index.html
 to represent contents of page2.html*/
 #er-to-sote-link {
+    /*Change index.html internal link background color for better contrast ratio*/
     background-color: f1b67e;
     h2 {
         font-size: 15px;
@@ -131,6 +137,7 @@ to represent contents of page2.html*/
 /*Specify background color for internal link in page2.html
 to represent contents of index.html*/
 #sote-to-er-link{
+    /*Change page2.html internal link background, text, and link color for better contrast ratio*/
     background-color: rgb(1, 35, 23);
     h2 {
         color: darkgoldenrod;
@@ -141,6 +148,7 @@ to represent contents of index.html*/
     }
 }
 
+/*Media query to resize fonts, adjust margins, and reformat flexboxes for small screens*/
 @media (max-width: 600px) {
     body {
         font-size: 13px;
