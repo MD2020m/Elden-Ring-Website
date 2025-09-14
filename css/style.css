@@ -3,6 +3,7 @@
     font-family: "The LB Times";
     src: url(Fonts/Chomsky.woff);
     src: url(Fonts/Chomsky.otf);
+    font-display: swap;
 }
 
 /*Format lines containing links*/
@@ -102,7 +103,7 @@ p {
 
 /*Specify color scheme for SOTE page (page2.html)*/
 #sote-page {
-    background-color:f1b67e;
+    background-color: rgb(241, 182, 126);
     .article-title {
         background-color: maroon;
     }
@@ -130,10 +131,13 @@ to represent contents of page2.html*/
 /*Specify background color for internal link in page2.html
 to represent contents of index.html*/
 #sote-to-er-link{
-    background-color: burlywood;
+    background-color: rgb(1, 35, 23);
     h2 {
-        color: black;
+        color: darkgoldenrod;
         font-size: 15px;
+        a {
+            color: lightcoral;
+        }
     }
 }
 
