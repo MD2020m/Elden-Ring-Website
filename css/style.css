@@ -68,7 +68,7 @@ p {
 }
 
 /*Specify formatting for each list's section within flexbox*/
-.col-md-6 {
+.col-md-5 {
     background-color:rgb(17, 51, 1);
     border-radius: 8px;
 }
