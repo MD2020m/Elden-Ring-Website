@@ -92,10 +92,12 @@ p {
 #er-header {
     /*Change index.html header background for better contrast ratio*/
     background-color: 012317;
+    border-radius: 8px;
 }
 /*Specify header background color for page2.html header*/
 #sote-header {
     background-color:maroon;
+    border-radius: 8px;
 }
 
 /*Specify background color for internal link in index.html
