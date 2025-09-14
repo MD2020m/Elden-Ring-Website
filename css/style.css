@@ -8,18 +8,12 @@
 }
 
 /*Format lines containing links*/
+/*Superfluous rules removed*/
 nav {
-    align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(95, 158, 160);
-    padding: 1px;
-    text-decoration: none;
-    display: flex;
-    margin: 10px;
     border-radius: 8px;
     /*Changes nav text font and size from default for h3*/
-    font-size: 15px;
     font-family:sans-serif;
 }
 
@@ -50,13 +44,6 @@ img {
     margin: auto;
 }
 
-/*Specify style and alignment for headers on each page*/
-header {
-    margin: 0;
-    padding: 15;
-    text-align: center;
-}
-
 /*Specify font for paragraph text (article bodies)*/
 p {
     font-family: sans-serif;
@@ -81,24 +68,13 @@ p {
 }
 
 /*Specify formatting for each list's section within flexbox*/
-.list-article {
+.col-md-6 {
     background-color:rgb(17, 51, 1);
-    padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-}
-
-/*Specify formatting for the two external links to youtube*/
-.yt-link {
-    /*Change link background color for higher contrast ratio*/
-    background-color: fbe5e5;
-    padding: 0.5%;
     border-radius: 8px;
 }
 
 /*Specify color scheme for Elden Ring page (index.html)*/
 #er-page {
-    background-color: burlywood;
     .article-title {
         /*Change index.html h2 background color for better contrast ratio*/
         background-color: 012317;
@@ -107,7 +83,6 @@ p {
 
 /*Specify color scheme for SOTE page (page2.html)*/
 #sote-page {
-    background-color: rgb(241, 182, 126);
     .article-title {
         background-color: maroon;
     }
@@ -140,11 +115,7 @@ to represent contents of index.html*/
     /*Change page2.html internal link background, text, and link color for better contrast ratio*/
     background-color: rgb(1, 35, 23);
     h2 {
-        color: darkgoldenrod;
         font-size: 15px;
-        a {
-            color: lightcoral;
-        }
     }
 }
 
@@ -161,9 +132,5 @@ to represent contents of index.html*/
 
     h2 {
         font-size: 25px;
-    }
-
-    .list-section {
-        flex-direction: column;
     }
 }
